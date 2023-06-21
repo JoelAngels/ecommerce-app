@@ -58,12 +58,12 @@ a {
   color: #555;
 }
 
-p {
+p {```````````````````````````````````````````````````````````````
   color: #555;
 }
 
 .container {
-  max-width: 1300px;
+  max-width: 1400px;
   margin: auto;
   padding-left: 25px;
   padding-right: 25px;
@@ -122,7 +122,9 @@ p {
 
 .col-3 img {
   width: 100%;
+  /* height: 300px; */
   transition: all 0.2s linear;
+  background-size: contain;
 }
 
 .col-3:hover {
@@ -153,15 +155,16 @@ p {
   text-align: center;
   margin: 0 auto 80px;
   position: relative;
-  line-height: 60px;
-  color: #555;
+  line-height: 90px;
+  color: black;
+  font-size: 40px;
 }
 
 .title::after {
   content: "";
   background: #ff523b;
-  width: 80px;
-  height: 5px;
+  width: 180px;
+  height: 3px;
   border-radius: 5px;
   position: absolute;
   bottom: 0;
@@ -189,13 +192,14 @@ h4 {
 
 /*OFFER*/
 .offer {
-  padding: 30px 0;
+  padding: 40px 0;
   background: radial-gradient(#fff, #ffd6d6);
   margin-top: 80px;
 }
 
 .col-2 .offer-img {
   padding: 50px;
+  /* border-radius: 5px; */
 }
 
 small {
@@ -216,6 +220,7 @@ small {
 
 .testimonial {
   padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 .testimonial .col-3 {
